@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+body{
+    background-image: url(../images/WhatsApp\ Image\ 2022-08-24\ at\ 4.27.23\ PM\ \(1\).jpeg);
+  /*  background-repeat: no-repeat; */
+    /* background-position: top; right top; 
+    background-size: contain; */
+}
+h1{
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.myclass{
+    background-color: blue;
+    color: beige;
+}
+#myid{
+    background-color: orange;
+    color: aliceblue;
+}
+h2, h3{
+    color: black;
+}
+form{
+    width: 70%;
+    background-color: pink;
+}
+input[type='text']{
+    width: 100%;
+    margin: 10px 5px;
+}
+.par span{
+    color: blue;
+}
+#par2 > span{
+    color: lightgreen;
+}
+.btn{
+    background-color: white;
+    color: blue;
+}
+.btn:hover{
+    background-color: orange;
+    color: aliceblue;
+}
+.box{
+    height: 30rem;
+    width: 34rem;
+    /*max-width: 1300px; */
+    background-color: red;
+    margin: 20px auto;
+    padding: 50px 30px;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: lightgreen;
+    text-decoration-style: double;
+    font-size: 30px;
+    font-family:fantasy
+
+}
+.newbox{
+    font-size: 50px;
+}
+.link1{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-shadow: #fff 2px 2px 2px;
+    text-justify: auto;
+    border-radius: 50px;
+    text-decoration: none;
+    color: red;
+    border: black solid;
+    padding: 20px 20px;
+    font-weight: 900;
+
+}
+.link2{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-family: 'sans-serif';
+    color: pink;
+    background-color: black;
+    border: solid;
+    border-radius: 50px;
+    padding: 5px;
+}
+.link2:hover{
+    background-color: #fff;
+    color: black;
+    transition: .3s ease-in;
+}
+.link3{
+    text-decoration: solid;
+    color: blue;
+    text-transform: lowercase;
+    text-shadow: 2px 2px 2px 1px pink;
+    font-weight: 900;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+.ccc{
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    background: lightslategray;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: red;
+}
+.ddd{
+    width: 250px;
+    height: 250px;
+    margin-top: 15px ;
+    background-color: lightgray;
+    border-left-style: dotted;
+    border-color: red;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius:50% ;
+    border-right-style: dashed;
+}
+/*table style*/
+table{
+    width: 100%;
+    border: black 1px;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid white;
+    padding: 20px 10px;
+    text-align: center;
+}
+th{
+    background: red;
+    color: #fff;
+}
+th:hover{
+    background: black ;
+    color: #fff;
+}
+tr{
+    background: lightcoral;
+    color: white;
+}
+tr:hover{
+    transition: .3s ease-in;
+    background: red;
+
+}
+
+h1{
+    font-family: 'Tangerine';
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My website</title>
+        <link rel="icon" href="images/account__profile__user__id-512.webp">
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-image: url(images/pool.jpg);
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+        }
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            background: blue;
+            color: aliceblue;
+            padding: 15px 15px;
+        }
+        .logo{
+            width: 50px;
+        }
+        .right{
+            padding: 10px 0 0;
+        }
+        .right a{
+            color: aliceblue;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 0 0 0 35px;
+        }
+        .banner{
+            width: 95%;
+            background-color: #777;
+            height: 200px;
+            margin: 10px auto;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            /*flex-direction: column;*/
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            color: white;
+        }
+        /* responsive design using media queries*/
+        @media(max-width : 700px){
+            .container{
+                flex-direction: column;
+                justify-content: center;
+            }
+            .box{
+                margin: 20px auto;
+                width: 90%;
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <div class="menu">
+            <div class="left">
+                <img src="images/account__profile__user__id-512.webp" alt="user ID" class="logo">
+            </div>
+            <div class="right">
+                <a href="#">
+                    Home
+                </a>
+                <a href="#">
+                    Contact
+                </a>
+                <a href="#">
+                    About
+                </a>
+            </div>
+        </div>
+        <div class="banner"></div>
+
+        <!--boxes-->
+        <div class="container">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+        </div>
+    </body>
+
+</html>
